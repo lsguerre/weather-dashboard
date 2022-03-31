@@ -44,8 +44,6 @@ var getWeather = function(city) {
             alert('Unable to connect to open weather')
         })
         
-
-
 }
 
 var displayWeather = function(currentForecast) {
@@ -62,7 +60,5 @@ var displayWeather = function(currentForecast) {
         $('#currentForecast').append(cityWeather)
 }
 
-
-// cityFormEl.addEventListener('submit', searchHandler)
 
 $('#search-btn').click('submit', searchHandler)
